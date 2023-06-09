@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4d964d379755a48955b8bf25a2a944, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  conversationNodes:
+  - dialogueText: '"Welcome to the game!"'
+    speaker: 
+    choices:
+    - '"Let''s start the quest!"'
+    - '"I''m not interested."'
+    nextNodeIndices: 0100000002000000
+  - dialogueText: '"Great! Your first task is to find the missing item."'
+    speaker: '"NPC"'
+    choices:
+    - '"Where should I look?"'
+    - '"I''ll search on my own."'
+    nextNodeIndices: 0300000004000000
+  - dialogueText: '"No problem! Feel free to come back anytime."'
+    speaker: '"NPC"'
+    choices: []
+    nextNodeIndices: 00000000
+  - dialogueText: '"You should start by searching in the forest."'
+    speaker: '"NPC"'
+    choices: []
+    nextNodeIndices: 00000000
+  - dialogueText: '"Alright. Good luck with your search!"'
+    speaker: '"NPC"'
+    choices: []
+    nextNodeIndices: 00000000
